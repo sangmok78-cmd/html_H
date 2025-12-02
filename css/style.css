@@ -1,4 +1,4 @@
-*{box-sizing: border-box;}
+*{box-sizing: border-box; }
 body, html{
     width: 100%;
     height: 100%;
@@ -85,24 +85,31 @@ body, html{
     
 } 
 
+.header_bottom_nav{
+  display: flex;
+  text-decoration: none;
+}
 .header_bottom_nav_main{
-  
+  display: flex;
 }
 .header_bottom_nav_main>ul{
-  display: flex;
+
   
 }
 .header_bottom_nav_main>ul>li{
   
 }
-.header_bottom_nav_main>ul>li>a{}
+.header_bottom_nav_main>ul>li>a{
+  text-decoration: none;
+}
 .header_bottom_nav_main>ul>li>ul{
   
 }
 .header_bottom_nav_main>ul>li>ul>li{
-  overflow: hidden;
+  
 }
 .header_bottom_nav_main>ul>li>ul>li>a{
+  display: none;
   
 }
 
@@ -148,7 +155,7 @@ body, html{
 #mainBox>.main_box1{
   width: 100%;
   height: 380px;
-  background: blue;
+  background: yellow;
 }
 #mainBox>.main_box2{
   width: 100%;
